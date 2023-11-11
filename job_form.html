@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="job_form.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+           <h1>Job Application
+            <span class="web">(web)</span>
+           </h1>
+           <br>
+           <form action="">
+            <div class="form">
+              <p class="form_control">First Name:* 
+                 <input type="text" name="first_name" id="first_name"  placeholder="Enter First Name......" required> 
+                </p>
+              <p class="form_control" >Last Name:* 
+                <input type="text" name="lastname" id="lastname" placeholder="Enter last Name......." required>
+            </p>
+              <p class="form_control">E-mail:*
+                 <input type="email" name="email" id="email" placeholder="abc@gmail.com" required>
+                </p>
+              <p class="form_control" >Job Role:*
+              <select name="job role" id="job role" required>
+                <option value="select">--select job role--</option>
+                <option value="Frontend Developer">Frontend Developer</option>
+                <option value="Backend Developer"> Backend Developer</option>
+                <option value="Full Stack Developer">Full Stack Developer</option>
+              </select>
+              </p>
+              <p class="textarea_control">Adrress: 
+                <textarea name="address" id="address" cols="74" rows="4" placeholder="Enter Address"></textarea>
+            </p>
+               <p class="form_control">Pincode:* 
+                <input type="number" name="pincode" id="pincode" placeholder="Enter pincode" required>
+            </p>
+               <p class="form_control" >Start Date:*
+                 <input type="date" name="start date" id="start date" required>
+                </p>
+               <p class="form_control">Upload Your CV:* 
+                <input type="file" name="cv" id="cv" required>
+            </p>
+            <div class="button_container">
+               <input class="button" type="submit" value="submit">
+            </div>
+            </div>
+           </form>
+        </div>
+    </div>
+</body>
+</html> 
